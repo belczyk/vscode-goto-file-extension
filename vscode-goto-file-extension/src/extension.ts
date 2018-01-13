@@ -9,6 +9,8 @@ export function activate(context: vscode.ExtensionContext) {
 
     ExtensionFactory.createGotoCommand('file.goto.less','less', context);
     ExtensionFactory.createGotoCommand('file.goto.css','css', context);
+    ExtensionFactory.createGotoCommand('file.goto.sass','sass', context);
+    ExtensionFactory.createGotoCommand('file.goto.scss','scss', context);
     ExtensionFactory.createGotoCommand('file.goto.html','html', context);
     ExtensionFactory.createGotoCommand('file.goto.ts','ts', context);
     ExtensionFactory.createGotoCommand('file.goto.js','js', context);

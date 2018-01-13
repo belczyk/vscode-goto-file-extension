@@ -19,26 +19,28 @@
     ],
     "main": "./out/src/extension",
     "contributes": {
-        "commands": [{
-            "command": "file.goto.less",
-            "title": "Go to LESS"
-        },
-        {
-            "command": "file.goto.html",
-            "title": "Go to HTML"
-        },
-        {
-            "command": "file.goto.ts",
-            "title": "Go to TS"
-        },
-        {
-            "command": "file.goto.js",
-            "title": "Go to JS"
-        },
-        {
-            "command": "file.goto.css",
-            "title": "Go to CSSS"
-        }]
+        "commands": [
+            {
+                "command": "file.goto.less",
+                "title": "Go to LESS"
+            },
+            {
+                "command": "file.goto.html",
+                "title": "Go to HTML"
+            },
+            {
+                "command": "file.goto.ts",
+                "title": "Go to TS"
+            },
+            {
+                "command": "file.goto.js",
+                "title": "Go to JS"
+            },
+            {
+                "command": "file.goto.css",
+                "title": "Go to CSSS"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
