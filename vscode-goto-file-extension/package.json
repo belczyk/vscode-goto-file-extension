@@ -15,7 +15,9 @@
         "onCommand:file.goto.html",
         "onCommand:file.goto.ts",
         "onCommand:file.goto.css",
-        "onCommand:file.goto.js"
+        "onCommand:file.goto.js",
+        "onCommand:file.goto.scss",
+        "onCommand:file.goto.sass"
     ],
     "main": "./out/src/extension",
     "contributes": {
@@ -38,7 +40,15 @@
             },
             {
                 "command": "file.goto.css",
-                "title": "Go to CSSS"
+                "title": "Go to CSS"
+            },
+            {
+                "command": "file.goto.scss",
+                "title": "Go to SCSS"
+            },
+            {
+                "command": "file.goto.sacss",
+                "title": "Go to SASS"
             }
         ]
     },
